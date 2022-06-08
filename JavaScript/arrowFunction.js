@@ -1,51 +1,51 @@
-//perbedaan function declaration dan function expression
+// //perbedaan function declaration dan function expression
 
-//function declaration
-function sayHello(greet){
-	console.log(`${greet}`);
-}
-
-
-//function expression
-const sayName = function(name){
-	console.log(`Nama saya ${name}`);
-}
-
-sayHello("Shinta");
-sayName("Shinta juga");
+// //function declaration
+// function sayHello(greet) {
+//     console.log(`${greet}`);
+// }
 
 
-//Arrow function
-const sayHai = (name) => {
-	console.log(`Nama saya ${name}`);
-}
+// //function expression
+// const sayName = function(name) {
+//     console.log(`Nama saya ${name}`);
+// }
 
-sayHai("Shin");
-
-
-// Jika funngsi hanya punya satu parameter, maka tanda kurung dapat tidak disertakan dalam penulisan parameter
-const sayHai = name => {
-	console.log(`Nama saya ${name}`);
-}
-
-sayHai("Shin");
+// sayHello("Shinta");
+// sayName("Shinta juga");
 
 
-// jika tidak butuh parameter maka tetap menuliskan tanda kurung
-const sayHelo = () => {
-	console.log("selamat malam semuanya");
-};
+// //Arrow function
+// const sayHai = (name) => {
+//     console.log(`Nama saya ${name}`);
+// }
 
-sayHelo();
-
-
-// bisa juga
-const sayName = name => console.log(`Nama saya ${name}`);
-
-const sayHelo = () => console.log(`Selamat pagi semuanya! Ayo tidur`);
+// sayHai("Shin");
 
 
-// tidak perlu mengembalikan nilai (return)
+// // Jika funngsi hanya punya satu parameter, maka tanda kurung dapat tidak disertakan dalam penulisan parameter
+// const sayHai = name => {
+//     console.log(`Nama saya ${name}`);
+// }
 
-const multiply = (a,b) => a * b;
-console.log(multiply(4,5));
+// sayHai("Shin");
+
+
+// // jika tidak butuh parameter maka tetap menuliskan tanda kurung
+// const sayHelo = () => {
+//     console.log("selamat malam semuanya");
+// };
+
+// sayHelo();
+
+
+// // bisa juga
+// const sayName = name => console.log(`Nama saya ${name}`);
+
+// const sayHelo = () => console.log(`Selamat pagi semuanya! Ayo tidur`);
+
+
+// // tidak perlu mengembalikan nilai (return)
+
+// const multiply = (a, b) => a * b;
+// console.log(multiply(4, 5));
