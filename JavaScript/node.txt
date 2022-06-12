@@ -1,1 +1,11 @@
-Node.js => sebuah runtime. runtime ini dapat menjalankan kode js di luar browser
+Node.js => sebuah runtime. runtime ini dapat menjalankan kode js di luar browser. Node.js menggunakan V8 engine. 
+
+fitur dalam node: 
+1. asynchronous dan event-driven
+    digunakan pada semua API di node.js yg artinya tidak menunggu proses lain selesai dulu. mekanisme ini mirip dengan pelayanan pada restoran.
+2. Very fast
+    karena kode berjalan pada V8 engine
+3. Single threaded but highly scalable
+    menggunakan single thread dengan event looping. mekanisme secara asynchronous untuk membantu respon dari server
+
+mekanisme di atas untuk menangani banyak request pada waktu yang sama.
