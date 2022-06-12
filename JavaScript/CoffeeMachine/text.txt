@@ -1,0 +1,7 @@
+untuk membuat package json dengan => npm init
+
+pada package.json terdapat kode run script/object script yg dapat dijalankan kapan saja pada project kita. untuk menjalankannya diperlukan perintah
+
+    npm run <script-name>
+
+
