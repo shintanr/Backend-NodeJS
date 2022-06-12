@@ -1,0 +1,1 @@
+Node.js => sebuah runtime. runtime ini dapat menjalankan kode js di luar browser
