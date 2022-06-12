@@ -5,3 +5,11 @@ pada package.json terdapat kode run script/object script yg dapat dijalankan kap
     npm run <script-name>
 
 
+cara mengatasi error karena ES6 module tidak secara default diaktifkan. 
+cara:
+1. menambahkan properti pada package.json
+    "type" : "module", sebelum script
+2. mengubah nama file .js menjadi .mjs
+
+
+Named export digunakan untuk mengekspor banyak nilai dalam berkas javaScript. dengan cara objek yang diekspor dituliskan dalam object literal
