@@ -1,4 +1,7 @@
-const coffeeStock = require("./state");
+// const coffeeStock = require("./state");
+const { coffeeStock, isCoffeeMachineReady } = require("./state");
+
+// menggunakan destructuring object
 
 // nama variabel bebas, require untuk memberikan parameter lokasi berkas state.js
 
