@@ -1,0 +1,7 @@
+concurrency adalah komputasi yang terjadi pada saat yang bersamaan.
+
+synchronous dan asynchronous 
+synchronous, ekssekusi program dijalankan berdasarkan urutan. 
+asynchronous, eksekusi yang memungkinkan suatu operasi berjalan sambil menunggu operasi lainnya selesai. contoh pada pemesanan makanan di restoran
+
+asynchronous biasanya dimanfaatkan pada operasi yang besar dan butuh waktu lama, seperti mengambil data dari internet/API, menyimpan data ke database dan membaca suatu berkas.
