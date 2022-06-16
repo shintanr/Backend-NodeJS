@@ -1,0 +1,64 @@
+Node Package Manager
+
+Java => Maven
+PHP => composer
+Python => pip
+JavaScript => NPM, yarn
+
+ketik npm -h pada cmd untuk melihat detail penggunaan salah satu perintahnya
+
+Aliases atau alias merupakan cara lain dalam melakukan perintah tersebut. Itu berarti perintah install dapat kita tuliskan dengan i, ins, isntal, add, atau yang lainnya.
+
+https://docs.npmjs.com/cli/v7/commands
+
+command pada npm yg sering digunakan
+1. init (baut berkas package.json pada project)
+2. install <package-name> (memasang dan mendaftarkan package pada berkas package.json)
+3. run-script <command> (buat jalanin oerintah di object script di berkas packege.json)
+4. uninstall <package-name> (buat hapus dan ngeluarin package dari berkas package.json)
+5. version (melihat versi)
+
+
+untuk menginstall package secara lokal
+
+    npm install <package-name>
+
+
+package global hanya diinstall saat menyediakan perintah yang dapat dieksekusi dari CLI dan digunakan kembali di semua project. contohnya: npm, nodemon, mocha
+
+    npm install -g <package-name>
+
+
+
+Lodash adalah package yang berisi banyak utilitas untuk memudahkan kita dalam menulis kode JavaScript, khususnya yang berhubungan dengan array, object, string, dll.
+
+    npm install lodas
+
+
+objek dependencies => menampung package yg digunakan u/ membuat aplikasi
+objek devDependencies => u/ package yg berkaitan hanya saat proses pengembangan aplikasi. jest untuk testing
+
+
+
+USING PACKAGE
+
+            import _ from 'lodash';
+
+    Penamaan menggunakan underscore (_) seperti di atas merupakan standar dari lodash yang perlu kita ikuti.
+
+
+
+    import _ from 'lodash';
+ 
+    const myArray = [1, 2, 3, 4];
+    const sum = _.sum(myArray);
+
+    kode yg dibuat untuk menjumlahkan sebuah array dengan memanfaatkan import dari lodash
+
+UNINSTALL PACKAGE
+
+untuk package yang berada dalam objek dependencies
+
+        npm uninstall <package-name>
+
+jika ada di devDependencies maka tinggal tambah akhiran --save-dev
