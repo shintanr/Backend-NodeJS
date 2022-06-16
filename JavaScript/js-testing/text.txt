@@ -1,0 +1,11 @@
+testing 
+
+a. manual, prosesnya berkaitan dengan usability, accesibility dr aplikasi
+b. otomatis, oleh komputer dengan script khusus. oleh QA biasanya. proses berkaitan dengan fungsionalitas aplikasi
+
+4 jenis pengujian:
+1. static test, memasikan ngga ada typo dan tidak ada error types
+2. unit test, kode berjalan sesuai harapan. proses dapat diautomasikan
+3. integration test, proses dengan automasi script test. memastikan fungsi satu sama lain yg saling ketergantungan bisa bekerja semestinya.
+4. end-to-end test, menguji flow dari awal sampai akhir. bisa otomatis atau manual
+
