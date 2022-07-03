@@ -1,0 +1,25 @@
+ada tiga bagian penting yang dibawa oleh server: 
+1. status line atau response status
+2. response header
+3. response body
+
+response status berisi informasi gagal tidaknya sebuah respon, diberikan dalam bentuk kode-kode dan pesan dati kodenya berupa teks (status message)
+
+berikut ketentuan dari status kode:
+1. 100-199 : informational response
+2. 200-299 : successfull response
+3. 300-399 : redirect
+4. 400-499 : client error
+5. 500-599 : server error
+
+sering digunakan: 2,4,5
+fyi : https://developer.mozilla.org/en-US/docs/Web/HTTP/Status?retiredLocale=id
+
+penetapan responsnya dengan kode
+
+    response.statusCode = 200; ---etc
+
+untuk mengubah status message dengan perintah
+
+    response.statusMessage = 'Ok'
+    

@@ -1,0 +1,21 @@
+cara menjalankan kode js dengan nodejs
+
+1. The nodeJs REPL (read-eval-print-loop)
+    caranya dengan mengetikkan 'node' pada terminal.
+    tanda > menunjukan sudah masuk mode node repl.
+    undefined karena console.log tidak mengembalikan nilai.
+    untuk menuliskan kode lebih dari satu baris bisa menggunakan .editor. untuk mengirim menggunakan ctrl+D, untuk keluar mode .editor adalah ctrl+C atau dengan .exit
+2. Running JS file using Node.js
+    
+Referensi
+
+
+Referensi
+
+[1] Github, The State of the Octoverse. [Daring]. Tersedia: https://octoverse.github.com/. [Diakses: 01-Mar-2021]. 
+
+[2] O. J. S. F. Node.js, “The built-in globals in Node.js,” Node.js. [Daring]. Tersedia: https://nodejs.org/en/knowledge/getting-started/globals-in-node-js/. [Diakses: 01-Mar-2021]. 
+
+[3] JavaScript Info, “Modules, introduction,” The Modern JavaScript Tutorial, 01-Nov-2020. [Daring]. Tersedia: https://javascript.info/modules-intro. [Diakses: 01-Mar-2021].
+
+[4] A. Silberschatz, G. Cagne, and G. Peter Baer, “Chapter 4. Processes,” in Operating system concepts with Java (Sixth ed.), John Wiley & Sons. 
