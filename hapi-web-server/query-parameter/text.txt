@@ -1,0 +1,5 @@
+Pada hapi query parameter bisa didapatkan dengan request.query
+
+format data
+
+    localhost:5000?name=harry&location=bali
